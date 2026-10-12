@@ -1,0 +1,7 @@
+spring:
+  ai:
+    openai:
+      api-key: test-key
+    mcp:
+      client:
+        enabled: false

@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: travel-mate
+  ai:
+    openai:
+      api-key: ${OPENAI_API_KEY}
+      base-url: https://api.openai.com/v1
+    mcp:
+      client:
+        streamable-http:
+          connections:
+            travel-booking:
+              url: http://localhost:8091
+              endpoint: /mcp
